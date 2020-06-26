@@ -1,0 +1,263 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1B94DE;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  color: #f44336;
+}
+
+#log {
+  margin: 10px 0 0 80px;
+}
+
+#wrong_psw{
+  color: red;
+}
+
+.reg{
+  text-align: center;
+  margin-left: 53px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+h2 {
+  text-align: center;
+  color: #1B94DE;
+}
+
+.cancelbtn {
+  width: 50%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    opacity: 1;
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .unshow {
+    -webkit-animation: fadeOut 1s;
+    animation: fadeOut 1s;
+    opacity: 0;
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+@-webkit-keyframes fadeOut {
+    from {opacity: 1;} 
+    to {opacity: 0;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity:0 ;}
+}
+
+
+/* test */
+.stage {
+
+   width: 99%;
+   text-align: center;
+   margin: center;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   transform-style: preserve-3d;
+}
+ .layer {
+  text-align: center;
+   width: 52%;
+   height: 52%;
+   position: absolute;
+   transform-style: preserve-3d;
+   animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+   animation-fill-mode: forwards;
+   transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+}
+ .layer:after {
+   font: 50.7692307692px 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+   content: 'CCLE\A 2.0';
+   white-space: pre;
+   text-align: center;
+   height: 52%;
+   width: 52%;
+   position: absolute;
+   top: 50px;
+   color: #f5f5f5;
+   letter-spacing: -2px;
+   text-shadow: 4px 0 10px rgba(0, 0, 0, .13);
+}
+ .layer:nth-child(1):after {
+   transform: translateZ(0px);
+}
+ .layer:nth-child(2):after {
+   transform: translateZ(-1.5px);
+}
+ .layer:nth-child(3):after {
+   transform: translateZ(-3px);
+}
+ .layer:nth-child(4):after {
+   transform: translateZ(-4.5px);
+}
+ .layer:nth-child(5):after {
+   transform: translateZ(-6px);
+}
+ .layer:nth-child(6):after {
+   transform: translateZ(-7.5px);
+}
+ .layer:nth-child(7):after {
+   transform: translateZ(-9px);
+}
+ .layer:nth-child(8):after {
+   transform: translateZ(-10.5px);
+}
+ .layer:nth-child(9):after {
+   transform: translateZ(-12px);
+}
+ .layer:nth-child(10):after {
+   transform: translateZ(-13.5px);
+}
+ .layer:nth-child(11):after {
+   transform: translateZ(-15px);
+}
+ .layer:nth-child(12):after {
+   transform: translateZ(-16.5px);
+}
+ .layer:nth-child(13):after {
+   transform: translateZ(-18px);
+}
+ .layer:nth-child(14):after {
+   transform: translateZ(-19.5px);
+}
+ .layer:nth-child(15):after {
+   transform: translateZ(-21px);
+}
+ .layer:nth-child(16):after {
+   transform: translateZ(-22.5px);
+}
+ .layer:nth-child(17):after {
+   transform: translateZ(-24px);
+}
+ .layer:nth-child(18):after {
+   transform: translateZ(-25.5px);
+}
+ .layer:nth-child(19):after {
+   transform: translateZ(-27px);
+}
+ .layer:nth-child(20):after {
+   transform: translateZ(-28.5px);
+}
+ .layer:nth-child(n+10):after {
+   -webkit-text-stroke: 3px rgba(0, 0, 0, .25);
+}
+ .layer:nth-child(n+11):after {
+   -webkit-text-stroke: 15px dodgerblue;
+   text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+}
+ .layer:nth-child(n+12):after {
+   -webkit-text-stroke: 15px #0077ea;
+}
+ .layer:last-child:after {
+   -webkit-text-stroke: 17px rgba(0, 0, 0, .1);
+}
+ .layer:first-child:after {
+   color: #fff;
+   text-shadow: none;
+}
+ @keyframes ಠ_ಠ {
+   52% {
+     transform: rotateY(-40deg) rotateX(-43deg);
+  }
+}
+ 

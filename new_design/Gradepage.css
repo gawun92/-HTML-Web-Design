@@ -1,0 +1,63 @@
+#MyTable{
+ width: 100%;
+ font-size: 14px;
+
+}
+#GradeTableCol1 {
+	border-top: 2px solid black;
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+}
+#GradeTableCol2 {	
+		border-top: 2px solid black;
+	border-bottom: 1px solid #cccccc;
+	padding-left:28px;
+
+}
+#GradeTableCol3 {
+	border-top: 2px solid black;
+	border-bottom: 1px solid #cccccc;
+
+}
+#GradeTableCol4 {
+	border-top: 2px solid black;
+	border-bottom: 1px solid #cccccc;
+
+}
+#GradeTableCol5 {
+	border-top: 2px solid black;
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+	width: 4px;
+}
+
+#GradeTableCol6 {
+	border-top: 2px solid black;
+}
+#GradeTableCol7 {
+	border-top: 2px solid black;
+}
+#GradeTableCol8 {
+	border-top: 2px solid black;
+}
+#GradeTableCol9 {
+	border-top: 2px solid black;
+}
+#GradeTableCol0 {
+	border-top: 2px solid black;
+}
+
+
+
+
+#rowww{
+	padding-top: 20px;
+}
+#portfolio{
+	font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+td{
+	padding: 10px;
+}

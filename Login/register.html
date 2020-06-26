@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="register.css" rel="stylesheet" type="text/css"/>
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+
+     <p>
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" id="name" required> <div id="noName"> </div>
+    </p>
+
+    <p>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" id="email" required> <div id="noEmail"> </div>
+    </p>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw" required> <div id="noPW"> </div>
+
+    <p>
+    <label for="rp_psw"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" id="rp_psw" required> <div id="mismatch"> </div>
+    </p>
+
+    <p>
+    <label>
+    <input type="checkbox" name="term" id="checking"> I agree to the <a href="#" style="color: dodgerblue">Terms & Privacy</a> <div id="noCheck"> </div>
+    </label>
+    </p>
+
+    <button type="submit" id="signupbtn">Sign Up</button>
+    <a href="loginpage.html"><button type="button" id="cancelbtn">Cancel</button></a>
+
+  </div>
+
+<script src="jquery/js/jquery-1.9.0.min.js"></script>
+<script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="./register.js"></script>
+</body>
+</html>

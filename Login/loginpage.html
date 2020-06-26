@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<link href="loginpage.css" rel="stylesheet" type="text/css"/>
+<title>CCLE 2.0</title>
+</head>
+<body>
+
+  <!-- test -->
+  <div class="stage">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+  </div>
+
+  <div class="container">
+    <h2>CCLE 2.0</h2>
+    <label for="uname" class="popup">
+      <i class="fas fa-question-circle"></i>
+      <b>  Username</b>
+      <span class="popuptext" id="usrPop">Enter your registered email address.</span>
+    </label>
+    <input type="text" placeholder="user@email.com" id="uname" required>
+
+    <p>
+    <label for="psw" class="popup">
+      <i class="fas fa-question-circle"></i>
+      <b>  Password</b>
+      <span class="popuptext" id="pswPop">At least 8 characters long etc..</span>
+    </label>
+    <input type="password" placeholder="Enter Password" id="psw" required>
+        
+    <button type="submit" id="log">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    </p>
+      <span class="reg">Don't have an account? <a href="register.html">Sign Up</a></span>
+
+      <div id="wrong_psw"> </div>
+  </div>
+
+
+
+</form>
+<script src="jquery/js/jquery-1.9.0.min.js"></script>
+<script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script src="./loginpage.js"></script>
+
+</body>
+</html>
